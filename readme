@@ -1,0 +1,2 @@
+start env command: pipenv shell
+terminate env command: exit
