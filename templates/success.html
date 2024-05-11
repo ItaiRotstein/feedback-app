@@ -10,7 +10,8 @@
   <body>
     <div class="container">
       <img src="../static/logo.png" alt="" class="logo" />
-      <h1>Thank You!</h1>
+      
+      <h1>Thank You {% if customer %}{{ customer | safe }}{% endif %}!</h1>
       <h2>Thank you for rating your experience. We hope to see you soon!</h2>
     </div>
   </body>
