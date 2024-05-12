@@ -1,8 +1,0 @@
-start env command: pipenv shell
-terminate env command: exit
-
-start server on local port 5000:
-python app.py
-
-
-
